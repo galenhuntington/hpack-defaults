@@ -1,0 +1,69 @@
+ghc-options:
+   - -Wall -Wredundant-constraints -Wno-name-shadowing -Wno-missing-signatures
+      -Wno-unused-do-bind -Wno-orphans -Wcompat
+   - -pgmF hpre -F
+
+# Add to stack.yaml:
+# extra-deps:
+#   - git: git@github.com:galenhuntington/hpre
+#     commit: ce731ccd77cbb17dd289fdfb457186da5706ab28
+build-tools:
+   hpre: 1.*
+
+default-extensions:
+   # - AllowAmbiguousTypes
+   - ApplicativeDo
+   - BangPatterns
+   - BinaryLiterals
+   - BlockArguments
+   - ConstraintKinds
+   - DataKinds
+   - DefaultSignatures
+   - DeriveAnyClass
+   - DeriveDataTypeable
+   - DeriveGeneric
+   - DeriveLift
+   - DeriveTraversable
+   - DerivingStrategies
+   - DerivingVia
+   - EmptyCase
+   - ExistentialQuantification
+   - FlexibleContexts
+   - FlexibleInstances
+   - FunctionalDependencies
+   # - GADTs
+   - GADTSyntax
+   - GeneralizedNewtypeDeriving
+   - InstanceSigs
+   - LambdaCase
+   - MultiWayIf
+   - NamedFieldPuns
+   - NoImplicitPrelude
+   - NondecreasingIndentation
+   - NoStarIsType
+   - NumDecimals
+   - NumericUnderscores
+   - OverloadedLabels
+   - OverloadedStrings
+   - PatternGuards
+   - PatternSynonyms
+   - QuantifiedConstraints
+   - QuasiQuotes
+   - RankNTypes
+   - RecordWildCards
+   - RoleAnnotations
+   - ScopedTypeVariables
+   - StandaloneDeriving
+   - TupleSections
+   - TypeApplications
+   - TypeFamilies
+   - TypeFamilyDependencies
+   - TypeOperators
+   - UnicodeSyntax
+   - ViewPatterns
+
+dependencies:
+   - base
+   - base-prelude
+   - containers
+
