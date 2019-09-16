@@ -44,7 +44,7 @@ default-extensions:
    - NumDecimals
    - NumericUnderscores
    - OverloadedLabels
-   - OverloadedStrings
+   # - OverloadedStrings
    - PatternGuards
    - PatternSynonyms
    - QuantifiedConstraints
