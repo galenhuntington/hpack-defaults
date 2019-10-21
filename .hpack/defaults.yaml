@@ -27,6 +27,7 @@ default-extensions:
    - DerivingStrategies
    - DerivingVia
    - EmptyCase
+   - EmptyDataDeriving
    - ExistentialQuantification
    - FlexibleContexts
    - FlexibleInstances
