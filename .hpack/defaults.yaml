@@ -63,8 +63,3 @@ default-extensions:
    - UnicodeSyntax
    - ViewPatterns
 
-dependencies:
-   - base
-   - base-prelude
-   - containers
-
