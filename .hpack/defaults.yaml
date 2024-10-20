@@ -6,9 +6,9 @@ ghc-options:
 # Add to stack.yaml:
 # extra-deps:
 #   - git: git@github.com:galenhuntington/hpre
-#     commit: cde56f22de0730c99d60bbdc6a0c13e75c509eac
+#     commit: 7844d357ccdf2cb9863e203e3d91c735249a2e4d
 build-tools:
-   hpre: 1.*
+   - hpre
 
 default-extensions:
    # - AllowAmbiguousTypes
